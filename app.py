@@ -10,7 +10,7 @@ app = Flask(__name__)
 @app.route('/')
 # ‘/’ URL is bound with hello_world() function.
 def hello_world():
-    return 'Hello World this is flask app simple'
+    return 'Hello World this is flask app simple new app'
  
 # main driver function
 if __name__ == '__main__':
